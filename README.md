@@ -22,18 +22,10 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 [Projeto Final]()
 
-Criação desse projeto foi baseado no site de locação da Localiza(https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
+Criação desse projeto foi baseado no site de locação da [Localiza](https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
 a reserva e poderem confirmar se seu cartão é válido ou não. No momento ele está desenvolvido apenas para entrada de números, futuramente 
 quero agregar mais informações.
 
-### Os objetivos gerais deste projeto são os seguintes
-
-* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
-  pastas (através de módulos em JS).
-* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
-  unitários).
-* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
-* Implementar controle de versão com git (e a plataforma github)
 
 ## 3. Considerações gerais
 
