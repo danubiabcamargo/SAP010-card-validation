@@ -1,21 +1,8 @@
 # Cartão de Crédito Válido
 
-## Índice
-
-* [1. Introdução](#1-Introdução)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
-* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#4-marco-critérios-de-aceitação-mínimos-do-projeto)
-* [5. Marco Opcional: Mostrar a franquia do cartão](#5-marco-opcional-mostrar-a-franquia-do-cartão)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
-
 ***
 
-## 1. Introdução TESTEEE
+## 1. Introdução 
 
 O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
 chamado de módulo 10, é um método de soma de verificação, usado para validar
@@ -33,19 +20,11 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-Neste projeto, você precisará criar um aplicativo da Web que permita ao usuário
-validar o número de um cartão de crédito.  Além disso, você precisará
-implementar a funcionalidade para ocultar todos os dígitos de um cartão, exceto
-os quatro últimos.
+[Projeto Final]()
 
-O tema é livre. Você deve pensar em quais situações da vida real um cartão de
-crédito precisaria ser validado e em como deveria ser a experiência do usuário
-(telas, explicações, mensagens, cores, marca?) etc.
-
-Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
-do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
-bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
-Ao desenvolver este projeto, você também se familiarizará com novos conceitos.
+Criação desse projeto foi baseado no site de locação da Localiza(https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
+a reserva e poderem confirmar se seu cartão é válido ou não. No momento ele está desenvolvido apenas para entrada de números, futuramente 
+quero agregar mais informações.
 
 ### Os objetivos gerais deste projeto são os seguintes
 
