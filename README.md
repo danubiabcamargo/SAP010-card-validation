@@ -22,7 +22,7 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 [Projeto Final]()
 
-Criação desse projeto foi baseado no site de locação da [Localiza](https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
+Criação desse projeto foi baseado no site de locação de carros da empresa [Localiza](https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
 a reserva e poderem confirmar se seu cartão é válido ou não. No momento ele está desenvolvido apenas para entrada de números, futuramente 
 quero agregar mais informações.
 
