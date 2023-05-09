@@ -29,10 +29,10 @@ quero agregar mais informações.
 
 ## 3. Desenvolvimento do Projeto
 
-- Realizei o esboço no papel em seguida passei o projeto para **Figma** (https://www.figma.com/proto/wi9xsKj1GzGsTRRa2Jf8J3/Untitled?node-id=1-2)<br>
+- Realizei o esboço no papel em seguida passei o projeto para **Figma** <br>
 gostei de utilizar do Figma pois fiz um curso no SENAI e achei uma forma de olhar o projeto e ajuda na hora da criação.
 
-
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fwi9xsKj1GzGsTRRa2Jf8J3%2FUntitled%3Fnode-id%3D1-2%26scaling%3Dscale-down" allowfullscreen></iframe>
 
 
 
