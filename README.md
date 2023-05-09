@@ -32,11 +32,13 @@ quero agregar mais informações.
 - Realizei o esboço no papel em seguida passei o projeto para **Figma** <br>
 gostei de utilizar do Figma pois fiz um curso no SENAI e achei uma forma de olhar o projeto e ajuda na hora da criação.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fwi9xsKj1GzGsTRRa2Jf8J3%2FUntitled%3Fnode-id%3D1-2%26scaling%3Dscale-down" allowfullscreen></iframe>
+### Primeira página do usuário
+<img src="figma.png">
+<br>
 
+* Não consegui finalizar o projeto como fiz no protótipo, pretendo finalizar. <br><br>
 
-
-## 5. Marco Opcional: Mostrar a franquia do cartão
+## 4. Projeto Final
 
 As partes opcionais permitem que você se aprofunde um pouco mais
 nos objetivos de aprendizagem do projeto. Tudo na vida tem prós e contras, decida
