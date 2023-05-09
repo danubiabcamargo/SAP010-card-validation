@@ -20,54 +20,21 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-[Projeto Final]()
+[Projeto Final](https://danubiabcamargo.github.io/cartao-valido/)
 
 Criação desse projeto foi baseado no site de locação de carros da empresa [Localiza](https://www.localiza.com/brasil/pt-br), desenvolvido para os usuários escolherem seu tipo de locação e finalizar
 a reserva e poderem confirmar se seu cartão é válido ou não. No momento ele está desenvolvido apenas para entrada de números, futuramente 
 quero agregar mais informações.
 
 
-## 3. Considerações gerais
+## 3. Desenvolvimento do Projeto
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
-* Concentre-se em aprender e não apenas "concluir" o projeto.
-* Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito agora com o que você _ainda_ não entende.
-  Você vai aprender.
+- Realizei o esboço no papel em seguida passei o projeto para **Figma** (https://www.figma.com/proto/wi9xsKj1GzGsTRRa2Jf8J3/Untitled?node-id=1-2)<br>
+gostei de utilizar do Figma pois fiz um curso no SENAI e achei uma forma de olhar o projeto e ajuda na hora da criação.
 
-## 4. Marco: Critérios de Aceitação Mínimos do Projeto
 
-Esses são os requisitos que seu projeto deve atender para garantir que
-seu trabalho atenda aos objetivos principais.
 
-**1. Uma interface que deve permitir ao usuário:**  
 
-* Inserir o número que desejamos validar. Use apenas caracteres
-  numéricos (dígitos) no cartão para validar [0-9].
-* Constatar se o resultado é válido ou não.
-* Ocultar todos os dígitos do número do cartão, excetuando os últimos 4
-  caracteres.
-* Não deve poder inserir um campo vazio.
-
-**2. Testes unitários dos métodos.**
-Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.
-
-**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-O código final deve estar um repositório no GitHub. A interface, ou página da web,
-deve ser "implantada" (acessível online publicamente) usando o GitHub Pages.
-
-**4. Um README contendo uma definição de produto.**
-No README, conte-nos como você pensou sobre os usuários e qual foi o seu
-processo para definir o produto final em nível de experiência e interface.
-Estas perguntas servem de guia:
-
-* Quem são os principais usuários do produto
-* Quais são os objetivos desses usuários em relação ao seu produto
-* Como você acha que o produto que você está criando está resolvendo seus
-  problemas
-
-Com esses requisitos atendidos, você pode agendar um feedback do projeto com
-um coach.
 
 ## 5. Marco Opcional: Mostrar a franquia do cartão
 
