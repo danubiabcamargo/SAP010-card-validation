@@ -1,6 +1,6 @@
 const validator = {
   isValid(cartaocredito) { //isValid funções ou métodos que verificam se algo é válido
-    function NumberDigitado(number) {//função q vai validar o cartão
+    function NumberDigito(number) {//função q vai validar o cartão
       if (number < 9) {//os numeros precisam ser verificados por posição
         return number;
       }
@@ -16,7 +16,7 @@ const validator = {
     //for é uma estrutura de controle de fluxo em JavaScript que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira.;
     for (let p = cartaocredito.length - 2; p >= 0; p = p - 2) {
       aux = parseInt(cartaocredito.charAt(p) + "");
-      somaPar = somaPar + NumberDigitado(aux * 2);//em loop até que todos os números sejam * pelo o aux*2
+      somaPar = somaPar + NumberDigito(aux * 2);//em loop até que todos os números sejam * pelo o aux*2
     }
 
     for (let i = cartaocredito.length - 1; i >= 0; i = i - 2) {// -1 que pegará as posições impares.
@@ -32,7 +32,15 @@ const validator = {
     }
   },
 
+  maskify(cartaocredito) {
+    const quatrodig = cartaocredito.slice(-4)
+    const qtdMask = cartaocredito.length - 4
+    const mask = "*".repeat(qtdMask) + "************" + quatrodig 
+    return mask
+  }
 }
+
+
 export default validator;
 
 

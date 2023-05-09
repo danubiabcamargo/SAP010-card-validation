@@ -1,7 +1,7 @@
 import validator from './validator.js';
 
-const card = document.getElementById("numero-do-cartao");//pega o valor digitado no input
-const button = document.getElementById("validar");//pega o botão
+const card = document.getElementById("numero-do-cartao");
+const button = document.getElementById("validar");
 
 function zerarInput(){
   document.getElementById("numero-do-cartao").value = "";
@@ -13,15 +13,15 @@ button.addEventListener("click", function(evento){//adiciona um evento de click 
   const numerocartao = card.value; // pega o valor digitado na variavel do input
   const validador = validator.isValid(numerocartao);//essa varivel é onde irei chamar o verificar de Luhn e mask na pasta validator.js
 
-  if (numerocartao.length < 16) {// condição = length é o comprimento da strg tem que menor que 16 caracteres
+  if (numerocartao.length < 16) {// condição menor q 16
     alert ("Cartão Incompleto");
   }
-  else if (validador === true) {//se o validador = validator.isValid for vddeiro, imprimo uma msg + o numero mascarado
+  else if (validador === true) {
     zerarInput();
     alert ("Cartão Válido: " + validator.maskify(numerocartao));
     
   }
-  else if (validador === false) {//se o validador = validator.isValid for falso, imprime a msg como alerta
+  else if (validador === false) {
     alert ("Cartão Inválido");
   }
 }
