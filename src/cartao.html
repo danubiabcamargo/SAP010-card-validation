@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pagamento</title>
+  <link rel="stylesheet" href="cartao.css" />
 </head>
+
 <body>
+  <h1>Formalize a sua reserva</h1>
+  <div id="container">
+    <label>Digite o número do cartão:</label> <input type="text" id="numero-do-cartao" maxlength="16"
+      placeholder="1234 5678 9123 4567" required><br>
+    <label>Nome Impresso</label> <br>
+    <input type="text"> <br><br>
+    <button id="validar">Validar</button>
+    <a href="index.html"><button>Voltar</button></a>
+  </div>
 
-<h1>Obrigada pela locação</h1>
-<label>Digite o número do cartão:</label> <input type="text" id="numero-do-cartao" maxlength="16" placeholder="1234 5678 9123 4567" required>
-<button id="validar">Validar</button>
 
 
-<script src="index.js" defer type="module"></script>
+  <script src="index.js" defer type="module"></script>
 </body>
+
 </html>

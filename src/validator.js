@@ -13,7 +13,7 @@ const validator = {
     let aux = 0;
 
 
-//for é uma estrutura de controle de fluxo em JavaScript que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira.;
+    //for é uma estrutura de controle de fluxo em JavaScript que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira.;
     for (let p = cartaocredito.length - 2; p >= 0; p = p - 2) {
       aux = parseInt(cartaocredito.charAt(p) + "");
       somaPar = somaPar + NumberDigitado(aux * 2);//em loop até que todos os números sejam * pelo o aux*2
@@ -31,7 +31,7 @@ const validator = {
       return false;
     }
   },
- 
+
 }
 export default validator;
 
