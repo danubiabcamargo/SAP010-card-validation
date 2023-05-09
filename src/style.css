@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color:#F5F5F4;  
+  min-height: 100vh;
+}
+
+main{
+  padding-top: 330px;
+}
+
+header{
+  position:absolute;
+  width: 100%;
+  height: 116px;
+  background-color: #025920;
+
+}
+
+#logo-header{
+  height: 231px;
+  width: 231px;
+  position: absolute;
+  padding-bottom: 3%;
+  left: 92px;
+  top: 7px;
+}
+
+h1{
+  color: #F5F5F4;
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 270px;
+  padding-top: 50px;
+}
+
+.header-menu {  
+  align-items: center;  
+  padding-bottom: 3%;
+  padding-left: 50%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.header-menu-item {
+  color: #F5F5F4;
+  font-size: 25px; 
+  position: relative;  
+  bottom:50px;  
+}
+
+.retangulo-container{
+background-color:#01401C;
+position: absolute;
+width: 100%;
+height: 124px;
+left: 0px;
+top: 114px;
+}
+
+input{
+  padding: 20px;
+  border-radius:7px;
+  margin-left: 20px;
+  
+}
+
+.simbolo-dinheiro{
+  padding-left: 90%;
+  margin-bottom: 30%;
+
+}
+
+.simbolo-img{
+  padding-bottom: 350px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card1 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 408px;
+  height: 464px;
+  left: 127px;
+top: 274px;
+position: absolute;
+}
+
+.card2 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 408px;
+  height: 464px;
+  left: 727px;
+top: 274px;
+position: absolute;
+}
+
+.card3 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 408px;
+  height: 464px;
+  left: 127px;
+top: 274px;
+position: absolute;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.card h2,h3{
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.card-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+}
